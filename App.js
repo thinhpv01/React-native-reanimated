@@ -1,9 +1,12 @@
 import React from "react";
 import { StyleSheet } from "react-native";
-import Lab1 from "./screen/Lab1";
+import Lab2 from "./screen/Lab2";
+
+const SIZE = 90;
+const CIRCLE_RADIUS = SIZE * 2;
 
 export default function App() {
-  return <Lab1 />;
+  return <Lab2 />;
 }
 
 const styles = StyleSheet.create({
