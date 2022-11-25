@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import { StyleSheet, View } from "react-native";
 import Animated, {
-  useSharedValue,
   useAnimatedStyle,
-  withSpring,
+  useSharedValue,
   withRepeat,
-  withTiming,
+  withSpring,
 } from "react-native-reanimated";
 
 const SIZE = 100.0;
