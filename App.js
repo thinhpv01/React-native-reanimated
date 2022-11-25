@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet } from "react-native";
-import Lab4 from "./screen/Lab4";
+import Lab6 from "./screen/Lab6";
 
 export default function App() {
-  return <Lab4 />;
+  return <Lab6 />;
 }
 
 const styles = StyleSheet.create({
