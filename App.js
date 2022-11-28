@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet } from "react-native";
-import RippleEffect from "./screen/RippleEffect";
+import PerspectiveMenu from "./screen/PerspectiveMenu";
 
 export default function App() {
-  return <RippleEffect />;
+  return <PerspectiveMenu />;
 }
 
 const styles = StyleSheet.create({
