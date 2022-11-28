@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet } from "react-native";
-import Lab9 from "./screen/Lab9";
+import SwipeToDelete from "./screen/SwipeToDelete";
 
 export default function App() {
-  return <Lab9 />;
+  return <SwipeToDelete />;
 }
 
 const styles = StyleSheet.create({
